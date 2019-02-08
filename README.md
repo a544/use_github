@@ -35,3 +35,9 @@ git commit
 ## 提交到远程库
 git push 远程库名
 
+## 查看提交记录
+gitk
+### gitk中文乱码问题的解决方法
+在用户的主目录中的.gitconfig文件中增加:
+[gui]
+        encoding = utf-8
