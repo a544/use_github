@@ -32,6 +32,8 @@ git status
 git add 文件名
 ## 提交到本地库
 git commit
+### 修改comment
+git commit –amend
 ## 提交到远程库
 git push 远程库名
 
